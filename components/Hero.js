@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import ConsultingPicture from "../public/consulting.jpg";
 
@@ -28,15 +29,17 @@ const Hero = () => {
               BIENVENUE{" "}
             </h1>
             <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">
-              Bonjour, Eve, Digital Marketer. Je t'aide à promouvoir ta marque
-              sur le web et les réseaux sociaux.
+              {`   Bonjour, Eve, Digital Marketer. Je t'aide à promouvoir ta marque
+              sur le web et les réseaux sociaux.`}
             </p>
             <button className="hidden sm:flex bg-yellow-700 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-800 hover:bg-yellow-800">
               Me contacter
             </button>
           </div>
           <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-yellow-700 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-800 hover:bg-yellow-800">
-            <a href="/contact">Me contacter</a>
+            <Link href="/contact">
+              <a>Me contacter</a>
+            </Link>
           </button>
         </div>
       </div>

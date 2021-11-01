@@ -6,8 +6,8 @@ const FormulaireV2 = () => {
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-3xl font-bold uppercase">Un projet ?</h1>
         <p>
-          Tu veux promouvoir ta marque sur le net ou les réseaux sociaux, ou tu
-          as une autre questions, n'hésites pas à me contacter.
+          {`Tu veux promouvoir ta marque sur le net ou les réseaux sociaux, ou tu
+          as une autre questions, n'hésites pas à me contacter.`}
         </p>
       </div>
       <form
